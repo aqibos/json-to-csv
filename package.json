@@ -1,0 +1,30 @@
+{
+  "name": "json-to-csv",
+  "version": "1.0.0",
+  "description": "Writes an array of Javascript objects to a CSV file.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashah023/json-to-csv.git"
+  },
+  "keywords": [
+    "json",
+    "csv",
+    "javascript",
+    "object",
+    "json-to-csv"
+  ],
+  "author": "Aqib Shah",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashah023/json-to-csv/issues"
+  },
+  "homepage": "https://github.com/ashah023/json-to-csv#readme",
+  "dependencies": {
+    "json2csv": "^3.4.2",
+    "ramda": "^0.21.0"
+  }
+}
