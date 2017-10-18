@@ -6,7 +6,7 @@ module.exports = function toCSV(records, fileName, header) {
     
   if (!records.length) throw 'Error - Array is empty';
   
-  if( !header ) header = false
+  if( typeof header === "undefined" ) header = true //default: true, fallback to original functionality
     
   var options = {data: records, fields: R.keys(records[0]), hasCSVColumnTitle: header};
     
