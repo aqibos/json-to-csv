@@ -24,7 +24,8 @@ jsonToCSV(o, fileName)
 .then(() => {
   // success
 })
-.catch(error => {
+.catch((error) => {
+  console.log(error);
   // handle error
 })
 ```
